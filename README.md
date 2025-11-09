@@ -90,7 +90,11 @@ CREATE TABLE angles (
     servo4 INT NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
 ```
+![](f.jpg)
+
+
 
 **2. ضبط الاتصال**
 
@@ -113,7 +117,14 @@ C:\xampp\htdocs\robot-arm\
 ```
 http://localhost/robot-arm/index.php
 ```
+جدول البيانات بعد التحديث:
 
+
+![](g.jpg)
+
+ملف الزوايا (angle.php) بعد الارسال:
+
+![](a.jpg)
 ---
 
 ## 🏗️ كيف يعمل؟
